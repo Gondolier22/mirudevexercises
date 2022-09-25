@@ -1,0 +1,48 @@
+div.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.container h1 {
+    text-align: center;
+}
+
+div.container .tabs, div.container .content  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+div.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    min-width: 100px ;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: black;
+    color: white !important;
+}
+
+div.container .content {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.active {
+    background-color: black;
+    color: white !important;
+}
